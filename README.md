@@ -17,7 +17,7 @@ Train from repo root with `python -m src.train` so imports resolve (`src` packag
 
 ### Dataset (keeps the Git repo small)
 
-`data/raw/creditcard.csv` is **not committed** (often ~150MB+). Download it from [Kaggle — Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardsfraud) and place it in `data/raw/`. Trained `models/*.pkl` files are also **gitignored**—run `python -m src.train` after cloning.
+`data/raw/creditcard.csv` is **not committed** (often ~150MB+). Download it from [Kaggle — Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and place it in `data/raw/`. Trained `models/*.pkl` files are also **gitignored**—run `python -m src.train` after cloning.
 
 ## Docker
 
